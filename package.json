@@ -1,0 +1,23 @@
+{
+  "name": "api-rest-fastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "eslint": "^8.49.0",
+    "tsx": "^3.12.8",
+    "typescript": "^5.2.2",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "fastify": "^4.23.0"
+  }
+}
